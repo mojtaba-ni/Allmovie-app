@@ -136,3 +136,56 @@ main {
 .movie:hover .overview {
     transform: translateY(0);
 }
+
+@media only screen and (min-width: 1000px) {
+    .logo {
+        margin-right: 60px;
+    }
+
+    .nav-link {
+        margin-right: 35px;
+    }
+
+    ul {
+        margin-left: 120px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .logo {
+        margin-left: 100px;
+    }
+
+    .navbar ul {
+        justify-content: flex-start !important;
+    }
+
+    .search {
+        width: 150%;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+    .search {
+        width: 156%;
+    }
+
+    .logo {
+        margin-left: 120px;
+    }
+}
+
+@media only screen and (min-width: 414px) {
+    .search {
+        width: 172%;
+    }
+
+    .nav-link {
+        margin-right: 22px;
+    }
+
+    .logo {
+        margin-left: 132px;
+    }
+}
+
